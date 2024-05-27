@@ -13,7 +13,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-              Unlock Your Dream School with AI: Simplify Your Application Process Today{" "}
+              Find Your Inner Peace with AI: Effortlessly Relieve Stress and Boost Your Mood Today
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
