@@ -9,6 +9,13 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
+        <Col className="footer-links" style={{ textAlign: 'center', marginTop: '10px' }}>
+          <a href="#terms" style={{ margin: '0 15px', color: 'white' }}>Terms of Use</a>
+          <a href="#privacy" style={{ margin: '0 15px', color: 'white' }}>Privacy Policy</a>
+          <a href="#faq" style={{ margin: '0 15px', color: 'white' }}>FAQ</a>
+        </Col>
+      </Row>
+      <Row>
         <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by Tao Shan</h3>
         </Col>

@@ -8,33 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+          Welcome to <strong className="purple">Emoease AI</strong>, your trusted companion in emotional support and stress relief. We are dedicated to providing a unique AI-powered chat experience designed to help you navigate life's challenges with ease and comfort. Our mission is to create a simple, user-friendly platform that connects you with an AI companion tailored to your emotional needs.
+At <strong className="purple">Emoease AI</strong>, we understand the importance of mental well-being. Our innovative service allows you to choose from various character avatars, voice types, and emotional tones, ensuring a personalized and supportive experience. Whether you need a friend, a family member, a doctor, or even a cute pet to talk to, our AI is here to listen and provide the comfort you seek.
+Our team is passionate about leveraging the power of AI to make a positive impact on people's lives. We believe that everyone deserves access to a supportive companion who can help alleviate stress and enhance overall happiness. Join us on this journey towards better mental health and discover the difference our AI chat service can make.
+Thank you for choosing <strong className="purple">Emoease AI</strong>. We're here to help you find your inner peace and boost your mood, one conversation at a time..
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Tao</footer>
         </blockquote>
       </Card.Body>
     </Card>
