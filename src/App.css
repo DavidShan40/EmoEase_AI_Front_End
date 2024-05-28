@@ -1,18 +1,22 @@
+/* 设置应用程序的基本样式 */
 .App {
   text-align: center;
 }
 
+/* 设置 logo 的样式 */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* 如果用户不偏好减少运动，则添加动画效果 */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* 设置应用程序头部的样式 */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,10 +28,12 @@
   color: white;
 }
 
+/* 设置链接的颜色 */
 .App-link {
   color: #61dafb;
 }
 
+/* 定义 logo 旋转动画 */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +41,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* 设置卡片视图的样式 */
+.quote-card-view {
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* 设置紫色文本的样式 */
+.purple {
+  color: #6f42c1;
+}
+
+/* 设置引用部分作者文本的样式 */
+blockquote-footer {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* 设置关于部分的样式 */
+.about-section {
+  padding: 60px 0;
+}
+
+/* 设置关于图片的样式 */
+.about-img {
+  text-align: center;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 自定义按钮样式 */
+.demo-button {
+  background-color: #6f42c1; /* 按钮背景色，使用紫色 */
+  color: white; /* 按钮文本颜色 */
+  border: none; /* 移除边框 */
+  padding: 15px 30px; /* 内边距 */
+  font-size: 1.2em; /* 字体大小 */
+  border-radius: 8px; /* 圆角 */
+  cursor: pointer; /* 鼠标悬停时变成手指图标 */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* 背景色和变换渐变效果 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 盒子阴影 */
+}
+
+.demo-button:hover {
+  background-color: #5a3498; /* 悬停时背景色 */
+  transform: translateY(-2px); /* 悬停时轻微上移 */
+}
+
+.demo-button:active {
+  background-color: #4a2781; /* 点击时背景色 */
+  transform: translateY(0); /* 点击时复位 */
 }
