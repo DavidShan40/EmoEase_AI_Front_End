@@ -299,6 +299,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
+  background-color: #E0F7FA;
   background-image: var(--image-gradient), url(./Assets/home-bg.png);
   background-position: top center;
   background-repeat: no-repeat;

@@ -18,7 +18,7 @@
 
 /* 设置应用程序头部的样式 */
 .App-header {
-  background-color: #282c34;
+  background-color: #E0F7FA;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -46,7 +46,7 @@
 /* 设置卡片视图的样式 */
 .quote-card-view {
   background-color: #f8f9fa;
-  color: #343a40;
+  color: #088F8F;
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
