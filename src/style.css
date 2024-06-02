@@ -263,7 +263,7 @@ button:focus {
 .home-header {
   /* padding-top: 80px !important; */
   font-weight: bold;
-  background: linear-gradient(270deg, #80BFFF, #FFEC99, #A3D9A5, #FF9B80); /* 淡化颜色*/
+  background: linear-gradient(270deg, #398cdf, #c4a51a, #328b35, #eb6844); /* 淡化颜色*/
   background-size: 600% 600%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -288,8 +288,9 @@ button:focus {
 }
 
 .demo-button:hover {
-  background-color: #0056b3; /* 悬停时的深蓝色背景 */
+  background-color: #1c45b5c2; /* 悬停时的深蓝色背景 */
   transform: scale(1.05); /* 悬停时的缩放效果 */
+  color: white;
 }
 
 
@@ -372,6 +373,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-color: #8bd3dd;
 }
 
 .home-about-description {
