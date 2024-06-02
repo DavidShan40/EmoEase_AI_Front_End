@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       updateLoad(false);
-    }, 1200);
+    }, 600);
 
     // 清除定时器
     return () => clearTimeout(timer);
@@ -33,13 +33,13 @@ function App() {
     // 配置路由
     <Router>
       {/* 显示预加载组件 */}
-      <Preloader load={load} />
+      {/* <Preloader load={load} /> */}
       {/* 设置滚动 */}
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         {/* 导航栏 */}
         <Navbar />
         {/* 滚动到顶部组件 */}
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
         {/* 定义路由 */}
         <Routes>
           <Route path="/" element={<Home />} />

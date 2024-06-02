@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 // import { useNavigate, Link } from "react-router-dom";
 import homeLogo from "../../Assets/EmoEase_AI_Main_Page_Image.png";
 import Home2 from "./Home2";
