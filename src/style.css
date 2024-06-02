@@ -261,7 +261,7 @@ button:focus {
   }
 }
 .home-header {
-  padding-top: 80px !important;
+  /* padding-top: 80px !important; */
   font-weight: bold;
   background: linear-gradient(270deg, #80BFFF, #FFEC99, #A3D9A5, #FF9B80); /* 淡化颜色*/
   background-size: 600% 600%;
@@ -281,8 +281,8 @@ button:focus {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 10px 2px;
-  cursor: pointer;
+  margin: 10px 50px;
+  cursor: grab;
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
@@ -567,21 +567,21 @@ button:focus {
   border-radius: 0px !important;
 }
 
-.btn-primary {
-  color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+/* .btn-primary {
+  color: #fff;
+  background-color: #623686;
+  border-color: #623686;
 }
 
 .btn-primary:hover {
-  color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  color: #fff;
+  background-color: #6d20c5d7;
+  border-color: #6d20c5d7;
 }
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
-}
+} */
 .project-heading {
   color: white !important;
   font-size: 2.3em !important;

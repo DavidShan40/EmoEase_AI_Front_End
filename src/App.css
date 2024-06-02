@@ -79,24 +79,25 @@ img.img-fluid {
 }
 
 /* 自定义按钮样式 */
-.demo-button {
-  background-color: #f7a7c6; /* 按钮背景色，使用紫色 */
-  color: white; /* 按钮文本颜色 */
-  border: none; /* 移除边框 */
-  padding: 15px 30px; /* 内边距 */
-  font-size: 1.2em; /* 字体大小 */
-  border-radius: 8px; /* 圆角 */
-  cursor: pointer; /* 鼠标悬停时变成手指图标 */
-  transition: background-color 0.3s ease, transform 0.3s ease; /* 背景色和变换渐变效果 */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 盒子阴影 */
+/* .demo-button {
+  background-color: #f7a7c6; 按钮背景色，使用紫色
+  color: white; 按钮文本颜色
+  border: none; 移除边框
+  padding: 15px 30px; 内边距
+  font-size: 1.2em; 字体大小
+  border-radius: 8px; 圆角
+  cursor: pointer; 鼠标悬停时变成手指图标
+  transition: background-color 0.3s ease, transform 0.3s ease; 背景色和变换渐变效果
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 盒子阴影
 }
 
 .demo-button:hover {
-  background-color: #f582ae; /* 悬停时背景色 */
-  transform: translateY(-2px); /* 悬停时轻微上移 */
+  background-color: #f582ae; 悬停时背景色
+  transform: translateY(-2px); 悬停时轻微上移
 }
 
 .demo-button:active {
-  background-color: #f582ae; /* 点击时背景色 */
-  transform: translateY(0); /* 点击时复位 */
+  background-color: #f582ae; 点击时背景色
+  transform: translateY(0); 点击时复位
 }
+*/
