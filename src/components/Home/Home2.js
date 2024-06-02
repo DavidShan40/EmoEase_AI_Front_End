@@ -19,7 +19,7 @@ function Home2() {
             <span className="purple"> Meet Your AI Companion: Stress Relief and Mood Boost </span>
             </h1>
             <p className="home-about-body">
-            Welcome to <span className="purple"> [Your Company Name]</span>, where we offer a unique AI-powered chat experience to help you relieve stress and boost your mood. Choose from various character avatars, voice types, and emotional tones. Whether you need a friend, family member, doctor, or even a cute pet to talk to, our AI is here to provide personalized emotional support. Try our demo today and find your perfect companion!
+            Welcome to <span className="purple"> Emoease</span>, where we offer a unique AI-powered chat experience to help you relieve stress and boost your mood. Choose from various character avatars, voice types, and emotional tones. Whether you need a friend, family member, doctor, or even a cute pet to talk to, our AI is here to provide personalized emotional support. Try our demo today and find your perfect companion!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
