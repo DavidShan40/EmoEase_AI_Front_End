@@ -52,11 +52,6 @@
   margin: 20px;
 }
 
-/* 设置紫色文本的样式 */
-.purple {
-  color: #6f42c1;
-}
-
 /* 设置引用部分作者文本的样式 */
 blockquote-footer {
   font-size: 1rem;

@@ -8,7 +8,7 @@ function About() {
     // 创建一个流体容器，包含关于我们部分的主要内容
     <Container fluid className="about-section">
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row style={{ justifyContent: "center"}}>
           {/* 左侧列，包含标题和AboutCard组件 */}
           <Col
             md={7}
