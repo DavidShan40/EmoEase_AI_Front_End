@@ -45,8 +45,8 @@
 
 /* 设置卡片视图的样式 */
 .quote-card-view {
-  background-color: #f8f9fa;
-  color: #088F8F;
+  background-color: #f582ae;
+  color: #f582ae;
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
@@ -80,7 +80,7 @@ img.img-fluid {
 
 /* 自定义按钮样式 */
 .demo-button {
-  background-color: #6f42c1; /* 按钮背景色，使用紫色 */
+  background-color: #f7a7c6; /* 按钮背景色，使用紫色 */
   color: white; /* 按钮文本颜色 */
   border: none; /* 移除边框 */
   padding: 15px 30px; /* 内边距 */
@@ -92,11 +92,11 @@ img.img-fluid {
 }
 
 .demo-button:hover {
-  background-color: #5a3498; /* 悬停时背景色 */
+  background-color: #f582ae; /* 悬停时背景色 */
   transform: translateY(-2px); /* 悬停时轻微上移 */
 }
 
 .demo-button:active {
-  background-color: #4a2781; /* 点击时背景色 */
+  background-color: #f582ae; /* 点击时背景色 */
   transform: translateY(0); /* 点击时复位 */
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/EmoEase_AI_Main_Page_Image.png";
 import Home2 from "./Home2";
 
 function Home() {
