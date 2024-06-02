@@ -48,7 +48,11 @@ function NavBar() {
           {/* <Nav className="ms-auto" defaultActiveKey="#home"> */}
           <Nav className="ms-auto">
             <Nav.Item>
-              <Nav.Link as={Link} to="https://emoeaseai.streamlit.app" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                href = "https://emoeaseai.streamlit.app"
+                target="_blank" 
+                rel="noopener noreferrer"
+                onClick={() => updateExpanded(false)}>
                 {/* <AiOutlineHome style={{ marginBottom: "2px" }} />  */}
                 Demo
               </Nav.Link>
