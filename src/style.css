@@ -282,7 +282,7 @@ button:focus {
   text-decoration: none;
   display: inline-block;
   margin: 10px 50px;
-  cursor: grab;
+  cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
@@ -298,7 +298,7 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
   background-color: #fef6e4;
   /* background-image: var(--image-gradient), url(./Assets/home-bg.png); */
   background-position: top center;
