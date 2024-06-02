@@ -65,7 +65,7 @@ function NavBar() {
             <Nav.Item className="fork-btn">
               <Button 
                 style={{ "border-color": "#ba8ed3" }}
-                href="https://github.com/DavidShan40/EmoEase_AI"
+                href="https://github.com/DavidShan40/EmoEase_AI_Front_End"
                 target="_blank"
                 className="fork-btn-inner"
               >
